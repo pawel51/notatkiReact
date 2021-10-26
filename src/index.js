@@ -1,15 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Notes from './Notes'
-import Selects from "./Selects";
-import App from "./App";
+import Notes from "./Notes";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Notes/>
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <Notes/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 
